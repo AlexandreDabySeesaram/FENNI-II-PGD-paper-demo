@@ -16,7 +16,7 @@ channels:
 dependencies:
 # python
   - numpy
-  - python
+  - python=3.12
   - scipy
   - sympy
 
