@@ -1,0 +1,44 @@
+################################################################################
+###                                                                          ###
+### Created by Martin Genet                                                  ###
+###                                                                          ###
+### École Polytechnique, Palaiseau, France                                   ###
+###                                                                          ###
+################################################################################
+
+
+name: notebook
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+# python
+  - numpy
+  - python
+  - scipy
+  - sympy
+
+# jupyter
+  - ipywidgets
+  - jupyter=1.0.0
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - jupyterlab
+  - notebook
+
+
+  # computing stuff on cpu only
+  - pytorch-cpu  
+
+
+  - pip
+  - pip:
+  # computing stuff
+    - gmsh
+    - meshio
+    - matplotlib
+    - "pyvista[jupyter]"
+  # mechanics stuff
+    - neurom-py==3.1.17

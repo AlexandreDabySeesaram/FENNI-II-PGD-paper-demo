@@ -1,0 +1,9 @@
+.DS_Store
+logo.svg
+demos/Geometries/Hole_3_order_1*
+demos/Geometries/Beam_order_1*
+*.msh
+*.vtk
+*.xml
+Results/*
+.gitlab-ci.yml
