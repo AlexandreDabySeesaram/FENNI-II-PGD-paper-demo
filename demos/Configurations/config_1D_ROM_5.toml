@@ -54,7 +54,7 @@ A                       = 1.0
 [interpolation]
 dimension               = 1                                             # Dimension of the study (1D or 2D)
 order                   = 1                                             # Order of the shape functions
-np                      = 10                                            # Number of Nodes in the Mesh in 1D
+np                      = 30                                            # Number of Nodes in the Mesh in 1D
 MaxElemSize2D           = 1                                             # Maximum element size in the 2D mesh
 n_integr_points         = 5                                           # Number of integration points per element
 
