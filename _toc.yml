@@ -10,6 +10,8 @@ chapters:
 - file: demos/2D case - Figure 8
 - file: demos/2D case - Figure 9-10 Error and plots pyvista
 - file: demos/2D case - Figure 11 multi level
+- file: demos/2D case - Figure SVK
+- file: demos/2D case - Figure plots pyvista SVK
 - file: demos/2D case - Space_variability
 - file: demos/2D case - Space variability pyvista
 - file: demos/2D case - Table Error pretrained
