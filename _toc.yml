@@ -7,12 +7,14 @@ chapters:
 - file: demos/1D case - Figure 5
 - file: demos/1D case - Figure 6 sequential
 - file: demos/1D case - Figure 7 simultaneous
-- file: demos/2D case - Figure 8
-- file: demos/2D case - Figure 9-10 Error and plots pyvista
-- file: demos/2D case - Figure 11 multi level
-- file: demos/2D case - Figure SVK
-- file: demos/2D case - Figure plots pyvista SVK
-- file: demos/2D case - Space_variability
-- file: demos/2D case - Space variability pyvista
-- file: demos/2D case - Table Error pretrained
-- file: demos/2D case - Interactive
+- file: demos/3D case - Figure 8-9 Error and plots pyvista
+- file: demos/3D case - Figure 10 bi-stiffness
+- file: demos/3D case - Figure 11 multi-grid
+- file: demos/3D case - Figure 12 multi-grid bi-stiffness
+- file: demos/3D case - Figure 13-14 Error and plots pyvista
+- file: demos/2D case - Figure A16
+- file: demos/2D case - Figure A17-18 Error and plots pyvista
+- file: demos/2D case - Figure A19 multi-grid
+- file: demos/2D case - Figure A20
+- file: demos/2D case - Figure A21 plots pyvista
+
