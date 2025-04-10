@@ -19,19 +19,6 @@ Volume_element          = 100                                       # Volume ele
 [Borders]
 Borders                 = [111,112,113,114,115, 210]                     # List of the structure's boundaries
 
-# [[DirichletDictionryList]]
-# Entity                  = 112                                       # Physical tag of the boundary
-# Value                   = 0                                         # numerical value
-# Normal                  = 0                                         # prescribed component (0=x,1=y,2=z)
-# Relation                = false
-# Constitutive            = false
-
-# [[DirichletDictionryList]]
-# Entity                  = 112                                       # Physical tag of the boundary
-# Value                   = 0                                         # numerical value
-# Normal                  = 1                                         # prescribed component (0=x,1=y,2=z)
-# Relation                = false
-# Constitutive            = false
 
 [[DirichletDictionryList]]
 Entity                  = 111                                       # Physical tag of the boundary
@@ -74,7 +61,7 @@ nu                      = 0.3                                       # Poisson's 
 dimension               = 3                                         # Dimension of the study (1D or 2D)
 order                   = 1                                         # Order of the shape functions
 np                      = 10                                        # Number of Nodes in the Mesh in 1D
-MaxElemSize2D           = 2                                         # Maximum element size in the 2D mesh
+MaxElemSize2D           = 4                                         # Maximum element size in the 2D mesh
 
 ####################################################
 ###                                              ###
@@ -129,7 +116,7 @@ multiscl_max_refinment  = 2                                        # Multiscale 
 h_adapt_MaxGeneration   = 3                                         # Maximum of times a given element can be splitted during h adaptivity
 h_adapt_J_thrshld       = 0.5                                       # relative jacobian delta ratio above which an element is refined
 d_eps_max_threshold     = 1e-7                                      # Threshold criterion on the relative delat of max strain to stop global mesh refinement
-multiscl_refinment_cf   = 2                                         # Multiscale homogeneous refinement coefficient
+multiscl_refinment_cf   = 4                                         # Multiscale homogeneous refinement coefficient
 
 ####################################################
 ###                                              ###
