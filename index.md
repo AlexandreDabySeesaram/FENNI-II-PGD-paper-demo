@@ -6,7 +6,7 @@
 * The notebooks can be executed online with binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AlexandreDabySeesaram/nn-pgd-demos/main?urlpath=lab/tree/./demos/) (no download required).
 
 
-<video src="../_static/videos/NeuROM_BiAngle.mov" autoplay loop></video>
+<video src="_static/videos/NeuROM_BiAngle.mov" autoplay loop></video>
 
 
 ## Hybridising standard reduced-order modelling methods with interpretable sparse neural networks
